@@ -1,0 +1,8 @@
+E:\Proyectos\1.ProyectosGenerales\Infraestructura CORESOFT\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Repositorio\bin\Debug\netcoreapp3.1\MarketFriend.WS.Repositorio.deps.json
+E:\Proyectos\1.ProyectosGenerales\Infraestructura CORESOFT\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Repositorio\bin\Debug\netcoreapp3.1\MarketFriend.WS.Repositorio.dll
+E:\Proyectos\1.ProyectosGenerales\Infraestructura CORESOFT\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Repositorio\bin\Debug\netcoreapp3.1\MarketFriend.WS.Repositorio.pdb
+E:\Proyectos\1.ProyectosGenerales\Infraestructura CORESOFT\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Repositorio\obj\Debug\netcoreapp3.1\MarketFriend.WS.Repositorio.AssemblyInfoInputs.cache
+E:\Proyectos\1.ProyectosGenerales\Infraestructura CORESOFT\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Repositorio\obj\Debug\netcoreapp3.1\MarketFriend.WS.Repositorio.AssemblyInfo.cs
+E:\Proyectos\1.ProyectosGenerales\Infraestructura CORESOFT\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Repositorio\obj\Debug\netcoreapp3.1\MarketFriend.WS.Repositorio.csproj.CoreCompileInputs.cache
+E:\Proyectos\1.ProyectosGenerales\Infraestructura CORESOFT\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Repositorio\obj\Debug\netcoreapp3.1\MarketFriend.WS.Repositorio.dll
+E:\Proyectos\1.ProyectosGenerales\Infraestructura CORESOFT\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Repositorio\obj\Debug\netcoreapp3.1\MarketFriend.WS.Repositorio.pdb
