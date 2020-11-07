@@ -1,0 +1,12 @@
+E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Dominio.Contrato\bin\Debug\netcoreapp3.1\MarketFriend.WS.Dominio.Contrato.deps.json
+E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Dominio.Contrato\bin\Debug\netcoreapp3.1\MarketFriend.WS.Dominio.Contrato.dll
+E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Dominio.Contrato\bin\Debug\netcoreapp3.1\MarketFriend.WS.Dominio.Contrato.pdb
+E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Dominio.Contrato\bin\Debug\netcoreapp3.1\MarketFriend.WS.Modelo.dll
+E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Dominio.Contrato\bin\Debug\netcoreapp3.1\MarketFriend.WS.Modelo.pdb
+E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Dominio.Contrato\obj\Debug\netcoreapp3.1\MarketFriend.WS.Dominio.Contrato.csprojAssemblyReference.cache
+E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Dominio.Contrato\obj\Debug\netcoreapp3.1\MarketFriend.WS.Dominio.Contrato.AssemblyInfoInputs.cache
+E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Dominio.Contrato\obj\Debug\netcoreapp3.1\MarketFriend.WS.Dominio.Contrato.AssemblyInfo.cs
+E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Dominio.Contrato\obj\Debug\netcoreapp3.1\MarketFriend.WS.Dominio.Contrato.csproj.CoreCompileInputs.cache
+E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Dominio.Contrato\obj\Debug\netcoreapp3.1\MarketFriend.WS.Dominio.Contrato.csproj.CopyComplete
+E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Dominio.Contrato\obj\Debug\netcoreapp3.1\MarketFriend.WS.Dominio.Contrato.dll
+E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Dominio.Contrato\obj\Debug\netcoreapp3.1\MarketFriend.WS.Dominio.Contrato.pdb

@@ -17,25 +17,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6.Pruebas", "6.Pruebas", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.Infraestructura", "7.Infraestructura", "{8AA65075-319C-444F-9A6A-F6681DCC5099}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketFriend.WS.Repositorio", "MarketFriend.WS.Repositorio\MarketFriend.WS.Repositorio.csproj", "{B8293A4B-ADED-4F98-80F5-EB3AA787A60B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketFriend.WS.Repositorio", "MarketFriend.WS.Repositorio\MarketFriend.WS.Repositorio.csproj", "{B8293A4B-ADED-4F98-80F5-EB3AA787A60B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketFriend.WS.Modelo", "MarketFriend.WS.Modelo\MarketFriend.WS.Modelo.csproj", "{C9C2ADBA-2694-4B91-9EB1-1FB9CD87BEAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketFriend.WS.Modelo", "MarketFriend.WS.Modelo\MarketFriend.WS.Modelo.csproj", "{C9C2ADBA-2694-4B91-9EB1-1FB9CD87BEAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketFriend.WS.Repositorio.Contrato", "MarketFriend.WS.Repositorio.Contrato\MarketFriend.WS.Repositorio.Contrato.csproj", "{76D3E4DF-1179-4A25-9A2A-D34A8523962B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketFriend.WS.Repositorio.Contrato", "MarketFriend.WS.Repositorio.Contrato\MarketFriend.WS.Repositorio.Contrato.csproj", "{76D3E4DF-1179-4A25-9A2A-D34A8523962B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketFriend.WS.Dominio", "MarketFriend.WS.Dominio\MarketFriend.WS.Dominio.csproj", "{C505EBE7-06E4-499E-8C15-E5A5160ABE6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketFriend.WS.Dominio", "MarketFriend.WS.Dominio\MarketFriend.WS.Dominio.csproj", "{C505EBE7-06E4-499E-8C15-E5A5160ABE6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketFriend.WS.Dominio.Contrato", "MarketFriend.WS.Dominio.Contrato\MarketFriend.WS.Dominio.Contrato.csproj", "{830D3400-FFB9-4772-B415-4D82918AECC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketFriend.WS.Dominio.Contrato", "MarketFriend.WS.Dominio.Contrato\MarketFriend.WS.Dominio.Contrato.csproj", "{830D3400-FFB9-4772-B415-4D82918AECC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketFriend.WS.Servicio", "MarketFriend.WS.Servicio\MarketFriend.WS.Servicio.csproj", "{443F7594-BC14-4177-ADF1-4C42365D7C38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketFriend.WS.Servicio", "MarketFriend.WS.Servicio\MarketFriend.WS.Servicio.csproj", "{443F7594-BC14-4177-ADF1-4C42365D7C38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketFriend.WS.Pruebas", "MarketFriend.WS.Pruebas\MarketFriend.WS.Pruebas.csproj", "{690A2EA9-6332-417B-AF1C-E57DBBC8E39E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketFriend.WS.Pruebas", "MarketFriend.WS.Pruebas\MarketFriend.WS.Pruebas.csproj", "{690A2EA9-6332-417B-AF1C-E57DBBC8E39E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketFriend.WS.Herramienta", "MarketFriend.WS.Herramienta\MarketFriend.WS.Herramienta.csproj", "{273F4D67-A06B-46E5-8FEC-228B297DD81D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketFriend.WS.Herramienta", "MarketFriend.WS.Herramienta\MarketFriend.WS.Herramienta.csproj", "{273F4D67-A06B-46E5-8FEC-228B297DD81D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketFriend.WS.Util", "MarketFriend.WS.Util\MarketFriend.WS.Util.csproj", "{66FE1ED7-3E50-412E-BF9E-2E6C4D6DCAB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketFriend.WS.Util", "MarketFriend.WS.Util\MarketFriend.WS.Util.csproj", "{66FE1ED7-3E50-412E-BF9E-2E6C4D6DCAB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketFriend.WS.MarketFriend", "MarketFriend.WS.MarketFriend\MarketFriend.WS.MarketFriend.csproj", "{9F27D62F-C9FC-43E8-B6CE-1991A8919CB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketFriend.WS.MarketFriend", "MarketFriend.WS.MarketFriend\MarketFriend.WS.MarketFriend.csproj", "{9F27D62F-C9FC-43E8-B6CE-1991A8919CB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketFriend.WS.Bloque.SqlServer", "MarketFriend.WS.Bloque.SqlServer\MarketFriend.WS.Bloque.SqlServer.csproj", "{C9F38146-86ED-4B8C-8469-98A2BA7E94DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +85,10 @@ Global
 		{9F27D62F-C9FC-43E8-B6CE-1991A8919CB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F27D62F-C9FC-43E8-B6CE-1991A8919CB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F27D62F-C9FC-43E8-B6CE-1991A8919CB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9F38146-86ED-4B8C-8469-98A2BA7E94DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9F38146-86ED-4B8C-8469-98A2BA7E94DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9F38146-86ED-4B8C-8469-98A2BA7E94DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9F38146-86ED-4B8C-8469-98A2BA7E94DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -98,6 +104,7 @@ Global
 		{273F4D67-A06B-46E5-8FEC-228B297DD81D} = {8AA65075-319C-444F-9A6A-F6681DCC5099}
 		{66FE1ED7-3E50-412E-BF9E-2E6C4D6DCAB9} = {8AA65075-319C-444F-9A6A-F6681DCC5099}
 		{9F27D62F-C9FC-43E8-B6CE-1991A8919CB8} = {EE68C594-75AD-4A11-8875-3C558FD78487}
+		{C9F38146-86ED-4B8C-8469-98A2BA7E94DE} = {8AA65075-319C-444F-9A6A-F6681DCC5099}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {23D4EDC0-ECAC-46A6-95DC-21C94A88861D}

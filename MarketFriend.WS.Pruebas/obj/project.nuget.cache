@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "otX6LtKu+FV5Q7XZB2oy/esK/YuMBwkNvLCWj6M1TATeuyfPPUspOIkWdyMPZ7HwlHytgh1inlnXqvrvMjQyZg==",
+  "dgSpecHash": "QQYy0gRcqC84Q+cXGCijBn1GI9ULryy/dIo8X2CuObonlCTuGb+q02cJ1G3R2x/Wl66+Nizxc1zfqm9Bo3nQFg==",
   "success": true,
-  "projectFilePath": "E:\\Proyectos\\1.ProyectosGenerales\\Infraestructura CORESOFT\\ADM\\BackEnd\\GENESYS\\MarketFriend\\MarketFriend.WS.Pruebas\\MarketFriend.WS.Pruebas.csproj",
+  "projectFilePath": "E:\\Proyectos\\1.ProyectosGenerales\\Infraestructura GENESYS\\ADM\\BackEnd\\GENESYS\\MarketFriend\\MarketFriend.WS.Pruebas\\MarketFriend.WS.Pruebas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\STACY\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\STACY\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",

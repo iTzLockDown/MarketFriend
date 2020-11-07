@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "afCCb7v1jB4nl1WWFJj0/ruU59bIUS8S8CL2CPjgXrMhR91V7VgoYFvuldgBpTatA1KOH9Y4+oCnsWC59s97UQ==",
+  "dgSpecHash": "X/jVaau7ge6Xjk8epxizLC/OOs3fiNU8ixZXwkacwX2Rl0Xwmjr9LnUYBBImVlLS4TbcO3bp7sopaZkl2+3bkw==",
   "success": true,
-  "projectFilePath": "E:\\Proyectos\\1.ProyectosGenerales\\Infraestructura CORESOFT\\ADM\\BackEnd\\GENESYS\\MarketFriend\\MarketFriend.WS.Modelo\\MarketFriend.WS.Modelo.csproj",
+  "projectFilePath": "E:\\Proyectos\\1.ProyectosGenerales\\Infraestructura GENESYS\\ADM\\BackEnd\\GENESYS\\MarketFriend\\MarketFriend.WS.Modelo\\MarketFriend.WS.Modelo.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

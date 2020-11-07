@@ -1,0 +1,12 @@
+E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Repositorio.Contrato\bin\Debug\netcoreapp3.1\MarketFriend.WS.Repositorio.Contrato.deps.json
+E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Repositorio.Contrato\bin\Debug\netcoreapp3.1\MarketFriend.WS.Repositorio.Contrato.dll
+E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Repositorio.Contrato\bin\Debug\netcoreapp3.1\MarketFriend.WS.Repositorio.Contrato.pdb
+E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Repositorio.Contrato\bin\Debug\netcoreapp3.1\MarketFriend.WS.Modelo.dll
+E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Repositorio.Contrato\bin\Debug\netcoreapp3.1\MarketFriend.WS.Modelo.pdb
+E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Repositorio.Contrato\obj\Debug\netcoreapp3.1\MarketFriend.WS.Repositorio.Contrato.csprojAssemblyReference.cache
+E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Repositorio.Contrato\obj\Debug\netcoreapp3.1\MarketFriend.WS.Repositorio.Contrato.AssemblyInfoInputs.cache
+E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Repositorio.Contrato\obj\Debug\netcoreapp3.1\MarketFriend.WS.Repositorio.Contrato.AssemblyInfo.cs
+E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Repositorio.Contrato\obj\Debug\netcoreapp3.1\MarketFriend.WS.Repositorio.Contrato.csproj.CopyComplete
+E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Repositorio.Contrato\obj\Debug\netcoreapp3.1\MarketFriend.WS.Repositorio.Contrato.dll
+E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Repositorio.Contrato\obj\Debug\netcoreapp3.1\MarketFriend.WS.Repositorio.Contrato.pdb
+E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Repositorio.Contrato\obj\Debug\netcoreapp3.1\MarketFriend.WS.Repositorio.Contrato.csproj.CoreCompileInputs.cache

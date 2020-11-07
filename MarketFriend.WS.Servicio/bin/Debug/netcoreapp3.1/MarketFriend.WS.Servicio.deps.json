@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MarketFriend.WS.Servicio/1.0.0": {
+        "runtime": {
+          "MarketFriend.WS.Servicio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MarketFriend.WS.Servicio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MarketFriend.WS.Bloque.SqlServer\MarketFriend.WS.Bloque.SqlServer.csproj" />
+    <ProjectReference Include="..\MarketFriend.WS.Repositorio.Contrato\MarketFriend.WS.Repositorio.Contrato.csproj" />
+  </ItemGroup>
+
 </Project>

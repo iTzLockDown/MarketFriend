@@ -5,7 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.2.0" />
+    <PackageReference Include="MoqExtensions.HttpResponseMessage" Version="2020.8.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MarketFriend.WS.Dominio.Contrato\MarketFriend.WS.Dominio.Contrato.csproj" />
+    <ProjectReference Include="..\MarketFriend.WS.Dominio\MarketFriend.WS.Dominio.csproj" />
+    <ProjectReference Include="..\MarketFriend.WS.Modelo\MarketFriend.WS.Modelo.csproj" />
   </ItemGroup>
 
 

@@ -2,9 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using MarketFriend.WS.Dominio;
+using MarketFriend.WS.Dominio.Contrato;
+using MarketFriend.WS.Modelo.Response;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using System.Net.Http;
 
 namespace MarketFriend.WS.MarketFriend.Controllers
 {
@@ -12,11 +16,7 @@ namespace MarketFriend.WS.MarketFriend.Controllers
     [ApiController]
     public class LoginController : ControllerBase
     {
-        private static readonly string[] Summaries1 = new[]
-        {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-        };
-
+        
         private readonly ILogger<LoginController> _logger;
 
         public LoginController(ILogger<LoginController> logger)
@@ -26,30 +26,16 @@ namespace MarketFriend.WS.MarketFriend.Controllers
 
         [HttpGet]
         [Route("logeatepapi")]
-        public IEnumerable<WeatherForecast> Get()
+        public IEnumerable<MKFComercioResponse> GetTraerTodos()
         {
-            var rng = new Random();
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-                {
-                    Date = DateTime.Now.AddDays(index),
-                    TemperatureC = rng.Next(-20, 55),
-                    Summary = Summaries1[rng.Next(Summaries1.Length)]
-                })
-                .ToArray();
-        }
+            List<MKFComercioResponse> oLista = null;
+            using (IComercioDominio oDominio = new ComercioDominio())
+            {
+                oLista = oDominio.TraerTodos().ToList();
+            }
+            if (oLista == null) return null;
 
-        [HttpGet]
-        [Route("logeateloko")]
-        public IEnumerable<WeatherForecast> Get1()
-        {
-            var rng = new Random();
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-                {
-                    Date = DateTime.Now.AddDays(index),
-                    TemperatureC = rng.Next(-20, 55),
-                    Summary = Summaries1[rng.Next(Summaries1.Length)]
-                })
-                .ToArray();
+            return oLista;
         }
     }
 }
