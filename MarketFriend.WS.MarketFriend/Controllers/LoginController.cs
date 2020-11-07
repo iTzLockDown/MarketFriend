@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System.Net.Http;
+using System.Net.Http.Headers;
 
 namespace MarketFriend.WS.MarketFriend.Controllers
 {
@@ -26,16 +27,16 @@ namespace MarketFriend.WS.MarketFriend.Controllers
 
         [HttpGet]
         [Route("logeatepapi")]
-        public IEnumerable<MKFComercioResponse> GetTraerTodos()
+        public IActionResult GetTraerTodos()
         {
             List<MKFComercioResponse> oLista = null;
             using (IComercioDominio oDominio = new ComercioDominio())
             {
                 oLista = oDominio.TraerTodos().ToList();
             }
-            if (oLista == null) return null;
+            if (oLista == null) return NotFound();
 
-            return oLista;
+            return Ok(oLista);
         }
     }
 }

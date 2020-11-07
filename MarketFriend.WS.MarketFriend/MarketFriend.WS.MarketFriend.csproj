@@ -5,15 +5,21 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.2.0" />
-    <PackageReference Include="MoqExtensions.HttpResponseMessage" Version="2020.8.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    <PackageReference Include="System.Net.Http" Version="4.3.4" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\MarketFriend.WS.Dominio.Contrato\MarketFriend.WS.Dominio.Contrato.csproj" />
     <ProjectReference Include="..\MarketFriend.WS.Dominio\MarketFriend.WS.Dominio.csproj" />
     <ProjectReference Include="..\MarketFriend.WS.Modelo\MarketFriend.WS.Modelo.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.Web.Infrastructure">
+      <HintPath>C:\Users\STACY\Desktop\WS\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 
