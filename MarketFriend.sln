@@ -37,7 +37,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketFriend.WS.Util", "Mar
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketFriend.WS.MarketFriend", "MarketFriend.WS.MarketFriend\MarketFriend.WS.MarketFriend.csproj", "{9F27D62F-C9FC-43E8-B6CE-1991A8919CB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketFriend.WS.Bloque.SqlServer", "MarketFriend.WS.Bloque.SqlServer\MarketFriend.WS.Bloque.SqlServer.csproj", "{C9F38146-86ED-4B8C-8469-98A2BA7E94DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketFriend.WS.Bloque.SqlServer", "MarketFriend.WS.Bloque.SqlServer\MarketFriend.WS.Bloque.SqlServer.csproj", "{C9F38146-86ED-4B8C-8469-98A2BA7E94DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

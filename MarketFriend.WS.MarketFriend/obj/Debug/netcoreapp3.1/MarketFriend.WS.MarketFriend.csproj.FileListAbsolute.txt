@@ -94,6 +94,13 @@ E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\Ma
 E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.MarketFriend\obj\Debug\netcoreapp3.1\MarketFriend.WS.MarketFriend.RazorAssemblyInfo.cache
 E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.MarketFriend\obj\Debug\netcoreapp3.1\MarketFriend.WS.MarketFriend.RazorAssemblyInfo.cs
 E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.MarketFriend\bin\Debug\netcoreapp3.1\Microsoft.Web.Infrastructure.dll
+E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.MarketFriend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.MarketFriend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.MarketFriend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.MarketFriend\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.MarketFriend\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.MarketFriend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.MarketFriend\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.MarketFriend\obj\Debug\netcoreapp3.1\MarketFriend.WS.MarketFriend.csproj.CoreCompileInputs.cache
 E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.MarketFriend\obj\Debug\netcoreapp3.1\MarketFriend.WS.MarketFriend.MvcApplicationPartsAssemblyInfo.cs
 E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.MarketFriend\obj\Debug\netcoreapp3.1\MarketFriend.WS.MarketFriend.MvcApplicationPartsAssemblyInfo.cache

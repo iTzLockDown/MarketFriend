@@ -7,6 +7,7 @@ namespace MarketFriend.WS.Dominio.Contrato
 {
     public interface IComercioDominio:IDisposable
     {
-        public IEnumerable<MKFComercioResponse> TraerTodos();
+        IEnumerable<MKFComercioResponse> TraerTodos();
+
     }
 }
