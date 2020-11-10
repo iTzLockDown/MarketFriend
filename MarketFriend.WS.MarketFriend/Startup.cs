@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
+using MarketFriend.WS.MarketFriend.Configuraciones;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -15,6 +16,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Swashbuckle.AspNetCore.SwaggerGen;
 
 
 namespace MarketFriend.WS.MarketFriend
@@ -54,29 +56,11 @@ namespace MarketFriend.WS.MarketFriend
                     };
                 });
 
-            AddSwagger(services);
+            SwaggerConfig.AgregarSwagger(services);
             
         }
-        private void AddSwagger(IServiceCollection services)
-        {
-            services.AddSwaggerGen(options =>
-            {
-                var groupName = "v1";
-                options.SwaggerDoc(groupName, new OpenApiInfo
-                {
-                    Title = $"MarketFriend {groupName}",
-                    Version = groupName,
-                    Description = "MarketFriend API",
-                    Contact = new OpenApiContact
-                    {
-                        Name = "Kaira Tec.",
-                        Email = "kairatec@kaira.com",
-                        Url = new Uri("https://kairatec.com")
-                    }
-                });
-            });
-        }
-
+       
+      
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
