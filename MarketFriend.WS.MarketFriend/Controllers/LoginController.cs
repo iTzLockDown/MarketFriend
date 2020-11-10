@@ -52,21 +52,16 @@ namespace MarketFriend.WS.MarketFriend.Controllers
                 {
                     oUsuario = oDominio.TraerUsuario(oLoginServer.Usuario, oLoginServer.Contrasenia);
                 }
-
                 if (oUsuario != null)
                 {
                     var tokenStr = GenerarTokenJwt.GenerarteTokenJwt(oUsuario);
                     response = Ok(new { token = tokenStr });
                 }
-
-                return response;
-                
             }
             else
             {
-                return NotFound("Inicio Sesión Fallida");
+                response = NotFound("Inicio de Sesion Fallido.");
             }
-
             return response;
         }
 

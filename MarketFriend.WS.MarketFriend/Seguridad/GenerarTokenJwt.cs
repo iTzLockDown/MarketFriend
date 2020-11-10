@@ -6,13 +6,19 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 using MarketFriend.WS.Modelo.Response;
+using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 
 namespace MarketFriend.WS.MarketFriend.Seguridad
 {
     public class GenerarTokenJwt
     {
-        public static string GenerarteTokenJwt(MKFUsuarioReponse oUsuario)
+        public static IConfiguration _config;
+        public GenerarTokenJwt(IConfiguration config)
+        {
+            _config = config;
+        }
+        public static MKFUsuarioReponse GenerarteTokenJwt(MKFUsuarioReponse oUsuario)
         {
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("Pues aunque a primera vista pudiera parecerlo, no lo es ;"));
             var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
@@ -32,7 +38,8 @@ namespace MarketFriend.WS.MarketFriend.Seguridad
             );
 
             var encodeToken = new JwtSecurityTokenHandler().WriteToken(token);
-            return encodeToken;
+            oUsuario.TokenJwt = encodeToken;
+            return oUsuario;
         }
     }
 }
