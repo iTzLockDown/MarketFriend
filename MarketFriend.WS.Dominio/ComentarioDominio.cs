@@ -13,9 +13,9 @@ namespace MarketFriend.WS.Dominio
         public IEnumerable<MKFComentarioResponse> TraertTodos(int codigoComercio)
         {
             IEnumerable<MKFComentarioResponse> oLista = null;
-            using (IComentarioRepositorio oDominio = new ComentarioRepositorio())
+            using (IComentarioRepositorio oRepositorio = new ComentarioRepositorio())
             {
-                oLista = oDominio.TraertTodos(codigoComercio).ToList();
+                oLista = oRepositorio.TraertTodos(codigoComercio).ToList();
             }
 
             return oLista;

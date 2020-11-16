@@ -13,30 +13,56 @@ namespace MarketFriend.WS.Dominio
         public bool Eliminar(int codigoCategoria)
         {
             bool respuesta = false;
-            using (ICategoriaRepositorio oDominio = new CategoriaRepositorio())
+            using (ICategoriaRepositorio oRepositorio = new CategoriaRepositorio())
             {
-                
+                respuesta = oRepositorio.Eliminar(codigoCategoria);
             }
+
+            return respuesta;
         }
 
         public bool GrabarEditar(MKFCategoriaRequest oCategoria)
         {
-            throw new NotImplementedException();
+            bool respuesta = false;
+            using (ICategoriaRepositorio oRepositorio = new CategoriaRepositorio())
+            {
+                respuesta = oRepositorio.GrabarEditar(oCategoria);
+            }
+
+            return respuesta;
         }
 
         public bool Habilitar(int codigoCategoria)
         {
-            throw new NotImplementedException();
+            bool respuesta = false;
+            using (ICategoriaRepositorio oRepositorio = new CategoriaRepositorio())
+            {
+                respuesta = oRepositorio.Habilitar(codigoCategoria);
+            }
+
+            return respuesta;
         }
 
         public IEnumerable<MKFCategoriaResponse> TraerTodos()
         {
-            throw new NotImplementedException();
+            IEnumerable<MKFCategoriaResponse> oLista = null;
+            using (ICategoriaRepositorio oRepositorio = new CategoriaRepositorio())
+            {
+                oLista = oRepositorio.TraerTodos();
+            }
+
+            return oLista;
         }
 
         public MKFCategoriaResponse TraerUno(int codigoCategoria)
         {
-            throw new NotImplementedException();
+            MKFCategoriaResponse oObjeto = null;
+            using (ICategoriaRepositorio oRepositorio = new CategoriaRepositorio())
+            {
+                oObjeto = oRepositorio.TraerUno(codigoCategoria);
+            }
+
+            return oObjeto;
         }
 
         public void Dispose()
