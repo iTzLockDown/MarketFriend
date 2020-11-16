@@ -14,7 +14,7 @@ using MarketFriend.WS.Repositorio.Contrato.SqlServer;
 
 namespace MarketFriend.WS.Repositorio.Contrato
 {
-    public class CategoriaRepositorio_: ICategoriaRepositorio
+    public class CategoriaRepositorio: ICategoriaRepositorio
     {
         public IEnumerable<MKFCategoriaResponse> TraerTodos()
         {

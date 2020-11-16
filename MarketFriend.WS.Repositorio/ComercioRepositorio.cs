@@ -165,7 +165,22 @@ namespace MarketFriend.WS.Repositorio
         public IEnumerable<MKFMensajeResponse> CalificaComercio(MKFClasificacionRequest oCalifica)
         {
             IEnumerable<MKFMensajeResponse> oLista = null;
-            string sp = StoredProcedure.usp_
+            string sp = StoredProcedure.USP_CLASIFICACION_CREA;
+            List<SqlParameterItem> parametros = new List<SqlParameterItem>();
+            parametros.Add(new SqlParameterItem("@x_nTieAteCom", SqlDbType.Int, oCalifica.Tiempo));
+            parametros.Add(new SqlParameterItem("@x_nPreProCom", SqlDbType.Int, oCalifica.Precio));
+            parametros.Add(new SqlParameterItem("@x_nCalAteCom", SqlDbType.Int, oCalifica.Calidad));
+            parametros.Add(new SqlParameterItem("@x_cComAteCom", SqlDbType.VarChar, oCalifica.Comentario));
+            parametros.Add(new SqlParameterItem("@x_nCodigoCom", SqlDbType.Int, oCalifica.CodigoComercio));
+            parametros.Add(new SqlParameterItem("@x_nCodigoUsu", SqlDbType.Int, oCalifica.CodigoUsuario));
+            using (SqlHelperWS db = new SqlHelperWS(dbContext.ADMGENESYS()))
+            {
+                using (SqlDataReader reader = db.ExecuteReader(sp, parametros))
+                {
+                    oLista = reader.Select(DesdeDataReaderMensaje).ToList();
+                }
+            }
+
 
             return oLista;
         }
@@ -220,6 +235,15 @@ namespace MarketFriend.WS.Repositorio
 
             };
         }
+
+        public MKFMensajeResponse DesdeDataReaderMensaje(IDataReader reader)
+        {
+            return new MKFMensajeResponse()
+            {
+                Mensaje = reader.GetValue(0).ToString(),
+            };
+        }
+
         #endregion
 
 
