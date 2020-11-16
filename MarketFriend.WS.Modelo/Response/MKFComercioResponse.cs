@@ -5,7 +5,7 @@ using System.Text;
 namespace MarketFriend.WS.Modelo.Response
 {
     /// <summary>
-    /// SP: AMD_LisComApp_SP
+    /// SP: AMD_LisComApp_SP || ADM_BusComPro
     /// </summary>
     public class MKFComercioResponse
     {
@@ -21,5 +21,6 @@ namespace MarketFriend.WS.Modelo.Response
         public string Latitud { get; set; }             //Latitud
         public string Longitud { get; set; }            //Longitud
 
+        public string Distancia { get; set; }           //Distancia
     }
 }
