@@ -1,8 +1,10 @@
 E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Repositorio\bin\Debug\netcoreapp3.1\MarketFriend.WS.Repositorio.deps.json
 E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Repositorio\bin\Debug\netcoreapp3.1\MarketFriend.WS.Repositorio.dll
 E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Repositorio\bin\Debug\netcoreapp3.1\MarketFriend.WS.Repositorio.pdb
+E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Repositorio\bin\Debug\netcoreapp3.1\MarketFriend.WS.Bloque.SqlServer.dll
 E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Repositorio\bin\Debug\netcoreapp3.1\MarketFriend.WS.Modelo.dll
 E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Repositorio\bin\Debug\netcoreapp3.1\MarketFriend.WS.Repositorio.Contrato.dll
+E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Repositorio\bin\Debug\netcoreapp3.1\MarketFriend.WS.Bloque.SqlServer.pdb
 E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Repositorio\bin\Debug\netcoreapp3.1\MarketFriend.WS.Repositorio.Contrato.pdb
 E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Repositorio\bin\Debug\netcoreapp3.1\MarketFriend.WS.Modelo.pdb
 E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Repositorio\obj\Debug\netcoreapp3.1\MarketFriend.WS.Repositorio.csprojAssemblyReference.cache
@@ -12,5 +14,3 @@ E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\Ma
 E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Repositorio\obj\Debug\netcoreapp3.1\MarketFriend.WS.Repositorio.csproj.CopyComplete
 E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Repositorio\obj\Debug\netcoreapp3.1\MarketFriend.WS.Repositorio.dll
 E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Repositorio\obj\Debug\netcoreapp3.1\MarketFriend.WS.Repositorio.pdb
-E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Repositorio\bin\Debug\netcoreapp3.1\MarketFriend.WS.Bloque.SqlServer.dll
-E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Repositorio\bin\Debug\netcoreapp3.1\MarketFriend.WS.Bloque.SqlServer.pdb

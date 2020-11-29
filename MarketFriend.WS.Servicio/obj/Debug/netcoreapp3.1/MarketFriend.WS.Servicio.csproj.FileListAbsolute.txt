@@ -1,9 +1,0 @@
-E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Servicio\bin\Debug\netcoreapp3.1\MarketFriend.WS.Servicio.deps.json
-E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Servicio\bin\Debug\netcoreapp3.1\MarketFriend.WS.Servicio.dll
-E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Servicio\bin\Debug\netcoreapp3.1\MarketFriend.WS.Servicio.pdb
-E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Servicio\obj\Debug\netcoreapp3.1\MarketFriend.WS.Servicio.csprojAssemblyReference.cache
-E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Servicio\obj\Debug\netcoreapp3.1\MarketFriend.WS.Servicio.AssemblyInfoInputs.cache
-E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Servicio\obj\Debug\netcoreapp3.1\MarketFriend.WS.Servicio.AssemblyInfo.cs
-E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Servicio\obj\Debug\netcoreapp3.1\MarketFriend.WS.Servicio.csproj.CoreCompileInputs.cache
-E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Servicio\obj\Debug\netcoreapp3.1\MarketFriend.WS.Servicio.dll
-E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.Servicio\obj\Debug\netcoreapp3.1\MarketFriend.WS.Servicio.pdb

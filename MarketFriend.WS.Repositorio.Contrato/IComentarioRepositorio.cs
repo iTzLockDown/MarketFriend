@@ -7,6 +7,6 @@ namespace MarketFriend.WS.Repositorio.Contrato
 {
     public interface IComentarioRepositorio:IDisposable
     {
-        IEnumerable<MKFComentarioResponse> TraertTodos(int codigoComercio);
+        IEnumerable<MKFComentarioResponse> TraerTodos(int codigoComercio);
     }
 }

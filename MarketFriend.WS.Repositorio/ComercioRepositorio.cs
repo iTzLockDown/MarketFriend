@@ -31,7 +31,7 @@ namespace MarketFriend.WS.Repositorio
             return oLista;
         }
 
-        public IEnumerable<MKFComercioResponse> TraerProximo(float GpsLatitud, float GpsLongitud)
+        public IEnumerable<MKFComercioResponse> TraerProximo(double GpsLatitud, double GpsLongitud)
         {
             IEnumerable<MKFComercioResponse> oLista = null;
             string sp = StoredProcedure.USP_COMERCIO_LISTA_PROXIMO;
@@ -40,7 +40,7 @@ namespace MarketFriend.WS.Repositorio
             parametros.Add(new SqlParameterItem("@x_nGpsLongit", SqlDbType.Float, GpsLongitud));
             using (SqlHelperWS oSqlHelperWS = new SqlHelperWS(dbContext.ADMGENESYS()))
             {
-                using (SqlDataReader reader = oSqlHelperWS.ExecuteReader(sp))
+                using (SqlDataReader reader = oSqlHelperWS.ExecuteReader(sp, parametros))
                 {
                     oLista = reader.Select(DesdeDataReaderTraerProximo).ToList();
                 }
@@ -58,15 +58,15 @@ namespace MarketFriend.WS.Repositorio
             {
                 using (SqlDataReader reader = db.ExecuteReader(sp, parametros))
                 {
-                    oObjeto = reader.Select(DesdeDataReader).First();
+                    oObjeto = reader.Select(DesdeDataReaderTraerUno).First();
                 }
             }
 
             return oObjeto;
         }
-        public MKFComercioResponse TraerNombre(string nombreComercio)
+        public  IEnumerable<MKFComercioResponse> TraerNombre(string nombreComercio)
         {
-            MKFComercioResponse oObjeto = null;
+            IEnumerable<MKFComercioResponse> oObjeto = null;
             string sp = StoredProcedure.USP_COMERCIO_LISTANOMBRE;
             List<SqlParameterItem> parametros = new List<SqlParameterItem>();
             parametros.Add(new SqlParameterItem("@x_nNombreCom", SqlDbType.VarChar, nombreComercio));
@@ -74,7 +74,7 @@ namespace MarketFriend.WS.Repositorio
             {
                 using (SqlDataReader reader = db.ExecuteReader(sp, parametros))
                 {
-                    oObjeto = reader.Select(DesdeDataReaderCategoria).First();
+                    oObjeto = reader.Select(DesdeDataReaderCategoria).ToList();
                 }
             }
 
@@ -220,6 +220,19 @@ namespace MarketFriend.WS.Repositorio
             };
         }
 
+        public MKFComercioResponse DesdeDataReaderTraerUno(IDataReader reader)
+        {
+            return new MKFComercioResponse()
+            {
+                Codigo = reader.GetValue(0).ToString().Trim(),
+                Nombre = reader.GetValue(1).ToString().Trim(),
+                Direccion = reader.GetValue(2).ToString().Trim(),
+                Telefono = reader.GetValue(3).ToString().Trim(),
+                Imagen = reader.GetValue(4).ToString().Trim(),
+                Latitud = reader.GetValue(5).ToString(),
+                Longitud = reader.GetValue(6).ToString(),
+            };
+        }
         public MKFComercioResponse DesdeDataReaderTraerProximo(IDataReader reader)
         {
             return new MKFComercioResponse()

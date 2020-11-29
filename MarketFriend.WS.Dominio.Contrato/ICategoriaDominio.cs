@@ -6,7 +6,7 @@ using MarketFriend.WS.Modelo.Response;
 
 namespace MarketFriend.WS.Dominio.Contrato
 {
-    public interface ICategoriaDominio
+    public interface ICategoriaDominio:IDisposable
     {
         IEnumerable<MKFCategoriaResponse> TraerTodos();
         bool GrabarEditar(MKFCategoriaRequest oCategoria);

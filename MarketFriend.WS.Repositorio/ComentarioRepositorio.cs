@@ -14,7 +14,7 @@ namespace MarketFriend.WS.Repositorio.Contrato
 {
     public class ComentarioRepositorio : IComentarioRepositorio
     {
-        public IEnumerable<MKFComentarioResponse> TraertTodos(int codigoComercio)
+        public IEnumerable<MKFComentarioResponse> TraerTodos(int codigoComercio)
         {
             IEnumerable<MKFComentarioResponse> oLista = null;
             string sp = StoredProcedure.USP_COMENTARIO_LISTA_COMERCIO;
@@ -27,7 +27,7 @@ namespace MarketFriend.WS.Repositorio.Contrato
                     oLista = reader.Select(DesdeDataReader).ToList();
                 }
             }
-            return null;
+            return oLista;
         }
 
         public MKFComentarioResponse DesdeDataReader(IDataReader reader)

@@ -10,15 +10,20 @@ namespace MarketFriend.WS.Dominio
 {
     public class ComentarioDominio : IComentarioDominio
     {
-        public IEnumerable<MKFComentarioResponse> TraertTodos(int codigoComercio)
+        public IEnumerable<MKFComentarioResponse> TraerTodos(int codigoComercio)
         {
             IEnumerable<MKFComentarioResponse> oLista = null;
-            using (IComentarioRepositorio oRepositorio = new ComentarioRepositorio())
+            using(IComentarioRepositorio oRepositorio = new ComentarioRepositorio())
             {
-                oLista = oRepositorio.TraertTodos(codigoComercio).ToList();
+                oLista = oRepositorio.TraerTodos(codigoComercio).ToList();
             }
 
             return oLista;
+        }
+
+        public void Dispose()
+        {
+            GC.SuppressFinalize(this);
         }
     }
 }

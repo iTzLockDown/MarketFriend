@@ -5,8 +5,8 @@ using MarketFriend.WS.Modelo.Response;
 
 namespace MarketFriend.WS.Dominio.Contrato
 {
-    public interface IComentarioDominio
+    public interface IComentarioDominio:IDisposable
     {
-        IEnumerable<MKFComentarioResponse> TraertTodos(int codigoComercio);
+        IEnumerable<MKFComentarioResponse> TraerTodos(int codigoComercio);
     }
 }

@@ -42,7 +42,7 @@ namespace MarketFriend.WS.Repositorio.Contrato
             parametros.Add(new SqlParameterItem("@x_nCodUsuReg", SqlDbType.Int, oCategoria.CodigoUsuario));
             using (SqlHelperWS db = new SqlHelperWS(dbContext.ADMGENESYS()))
             {
-                respuesta = db.ExecuteNonQuery(sp);
+                respuesta = db.ExecuteNonQuery(sp, parametros);
             }
 
             return respuesta;
@@ -57,7 +57,7 @@ namespace MarketFriend.WS.Repositorio.Contrato
             {
                 using (SqlDataReader reader = db.ExecuteReader(sp, parametros))
                 {
-                    oObjeto = reader.Select(DesdeDataReader).First();
+                    oObjeto = reader.Select(DesdeDataReader).FirstOrDefault();
                 }
                 
             }

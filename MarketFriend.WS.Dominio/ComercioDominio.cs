@@ -23,7 +23,7 @@ namespace MarketFriend.WS.Dominio
         }
 
         
-        public IEnumerable<MKFComercioResponse> TraerProximo(float GpsLatitud, float GpsLongitud)
+        public IEnumerable<MKFComercioResponse> TraerProximo(double GpsLatitud, double GpsLongitud)
         {
             IEnumerable<MKFComercioResponse> oLista = null;
             using (IComercioRepositorio oRepositorio = new ComercioRepositorio())
@@ -73,6 +73,17 @@ namespace MarketFriend.WS.Dominio
             using (IComercioRepositorio oRepositorio = new ComercioRepositorio())
             {
                 oObjeto = oRepositorio.TraerUno(codigoComercio);
+            }
+
+            return oObjeto;
+        }
+
+        public IEnumerable<MKFComercioResponse> TraerNombre(string nombreComercio)
+        {
+            IEnumerable<MKFComercioResponse> oObjeto = null;
+            using (IComercioRepositorio oRepositorio = new ComercioRepositorio())
+            {
+                oObjeto = oRepositorio.TraerNombre(nombreComercio);
             }
 
             return oObjeto;

@@ -32,7 +32,7 @@ namespace MarketFriend.WS.Repositorio.Contrato
             switch (ambiente)
             {
                 case "DESARROLLO":
-                    cadenaConexion = "Data Source=.;Initial Catalog=ADMGENESYS;Integrated Security=True";
+                    cadenaConexion = "Data Source=DESKTOP-TNSE89K\\SQLEXPRESS;Initial Catalog=ADMGENESYS;Integrated Security=True";
                     break;
                 case "PRODUCCION":
                     cadenaConexion = _configuration.GetSection("cnSeguridadProdDB").Value;
