@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "pPFHq4imYY1UV/1Ss5KXUsfqc+Z2UzvkSc7WRcsHoZA5VXPAbqqARdNALS6Net3kRwP8PwidtjGHsb47afy9yQ==",
+  "dgSpecHash": "8UeJvMlZpsVjNNtSg/NeeG/Yky7d1YxwSjBeP2FFBRgazDfleahS2W/ckSX6tGENK75cH+JYVwyh3dWJq2cGMg==",
   "success": true,
   "projectFilePath": "E:\\Proyectos\\1.ProyectosGenerales\\Infraestructura GENESYS\\ADM\\BackEnd\\GENESYS\\MarketFriend\\MarketFriend.WS.Dominio.Contrato\\MarketFriend.WS.Dominio.Contrato.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\STACY\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.0\\microsoft.aspnetcore.http.features.5.0.0.nupkg.sha512",
+    "C:\\Users\\STACY\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\STACY\\.nuget\\packages\\system.io.pipelines\\5.0.0\\system.io.pipelines.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

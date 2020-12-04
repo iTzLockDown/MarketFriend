@@ -89,7 +89,7 @@ namespace MarketFriend.WS.Repositorio
             parametros.Add(new SqlParameterItem("@x_cNombreCom", SqlDbType.VarChar, oComercio.Nombre));
             parametros.Add(new SqlParameterItem("@x_cDirComerc", SqlDbType.VarChar, oComercio.Direccion));
             parametros.Add(new SqlParameterItem("@x_cTelefoCom", SqlDbType.VarChar, oComercio.Telefono));
-            parametros.Add(new SqlParameterItem("@x_cImagenCom", SqlDbType.VarChar, oComercio.Imagen));
+            parametros.Add(new SqlParameterItem("@x_cImagenCom", SqlDbType.VarChar, oComercio.Imagen.FileName.Replace(" ", "_").ToString()));
             parametros.Add(new SqlParameterItem("@x_nCodCatCom", SqlDbType.Int, oComercio.CodigoCategoria));
             parametros.Add(new SqlParameterItem("@x_nCodigoUsu", SqlDbType.Int, oComercio.CodigoUsuario));
             parametros.Add(new SqlParameterItem("@x_nCodUsuReg", SqlDbType.Int, oComercio.CodigoUsuarioRegistra));

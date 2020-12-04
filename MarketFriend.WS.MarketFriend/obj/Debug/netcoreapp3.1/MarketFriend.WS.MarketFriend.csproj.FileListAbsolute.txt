@@ -102,3 +102,6 @@ E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\Ma
 E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.MarketFriend\obj\Debug\netcoreapp3.1\MarketFriend.WS.MarketFriend.dll
 E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.MarketFriend\obj\Debug\netcoreapp3.1\MarketFriend.WS.MarketFriend.pdb
 E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.MarketFriend\obj\Debug\netcoreapp3.1\MarketFriend.WS.MarketFriend.genruntimeconfig.cache
+E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.MarketFriend\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.MarketFriend\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+E:\Proyectos\1.ProyectosGenerales\Infraestructura GENESYS\ADM\BackEnd\GENESYS\MarketFriend\MarketFriend.WS.MarketFriend\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll

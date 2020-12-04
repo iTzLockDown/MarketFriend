@@ -8,6 +8,7 @@ using MarketFriend.WS.MarketFriend.Configuraciones;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -68,6 +69,10 @@ namespace MarketFriend.WS.MarketFriend
             {
                 app.UseDeveloperExceptionPage();
             }
+            else
+            {
+                app.UseHsts();
+            }
             app.UseAuthentication();
             app.UseHttpsRedirection();
             app.UseSwagger();
@@ -79,10 +84,15 @@ namespace MarketFriend.WS.MarketFriend
             app.UseRouting();
        
             app.UseAuthorization();
-
+            app.UseStaticFiles();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+            });
+
+            app.Run(async (context) =>
+            {
+                await context.Response.WriteAsync("could not find anithing.");
             });
         }
     }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using MarketFriend.WS.Dominio;
@@ -7,6 +8,7 @@ using MarketFriend.WS.Dominio.Contrato;
 using MarketFriend.WS.Modelo.Request;
 using MarketFriend.WS.Modelo.Response;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Routing.Constraints;
 using Microsoft.Extensions.Logging;
@@ -15,14 +17,16 @@ namespace MarketFriend.WS.MarketFriend.Controllers.API
 {
     [Route(Ruta.UriComercio.Prefijo)]
     [ApiController]
-    [Authorize]
+    //[Authorize]
     public class ComercioController : Controller
     {
         private readonly ILogger<ComercioController> _logger;
+        public static IWebHostEnvironment _enviroment;
 
-        public ComercioController(ILogger<ComercioController> logger)
+        public ComercioController(ILogger<ComercioController> logger, IWebHostEnvironment enviroment)
         {
             _logger = logger;
+            _enviroment = enviroment;
         }
 
         [HttpGet]
@@ -83,16 +87,48 @@ namespace MarketFriend.WS.MarketFriend.Controllers.API
 
         [HttpPost]
         [Route(Ruta.UriComercio.GrabarEditar)]
-        public IActionResult GrabarEditar([FromBody]MKFComercioRequest oComercio)
+        public IActionResult GrabarEditar([FromForm]MKFComercioRequest oComercio)
         {
+            
             bool respuesta = false;
-            using (IComercioDominio oDominio = new ComercioDominio())
-            {
-                respuesta = oDominio.GrabarEditar(oComercio);
-            }
-            if (respuesta == null) return NotFound();
 
-            return Ok(respuesta);
+            try
+            {
+                if (oComercio.Imagen.Length > 0)
+                {
+                    if (!Directory.Exists(_enviroment.WebRootPath + "\\Upload\\"))
+                    {
+                        Directory.CreateDirectory(_enviroment.WebRootPath + "\\Upload\\");
+                    }
+                    using (FileStream fileStream = System.IO.File.Create(_enviroment.WebRootPath+"\\Upload\\"+oComercio.Imagen.FileName.Replace(" ", "_")))
+                    {
+                        oComercio.Imagen.CopyTo(fileStream);
+                        fileStream.Flush();
+                        using (IComercioDominio oDominio = new ComercioDominio())
+                        {
+                            respuesta = oDominio.GrabarEditar(oComercio);
+                        }
+                        if (respuesta == null) return NotFound();
+
+                        return Ok(respuesta);
+
+                       
+                    }
+
+
+                }
+                else
+                {
+                   return Ok("failed");
+                }
+
+            }
+            catch (Exception e)
+            {
+                return Ok(e.Message.ToString());
+            }
+           
+
         }
 
 

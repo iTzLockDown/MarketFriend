@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -13,7 +14,7 @@ namespace MarketFriend.WS.Modelo.Request
         public string Nombre { get; set; } //@x_cNombreCom
         public string Direccion{ get; set; } //@x_cDirComerc
         public string Telefono { get; set; } //@x_cTelefoCom
-        public string Imagen { get; set; } //@x_cImagenCom
+        public IFormFile Imagen { get; set; } //@x_cImagenCom
         public int CodigoCategoria { get; set; } //@x_nCodCatCom
         public int CodigoUsuario { get; set; } //@x_nCodigoUsu
         public int CodigoUsuarioRegistra { get; set; } //@x_nCodUsuReg

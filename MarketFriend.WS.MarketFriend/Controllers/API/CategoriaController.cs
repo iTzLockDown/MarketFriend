@@ -1,14 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using MarketFriend.WS.Dominio;
+﻿using MarketFriend.WS.Dominio;
 using MarketFriend.WS.Dominio.Contrato;
 using MarketFriend.WS.Modelo.Request;
 using MarketFriend.WS.Modelo.Response;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace MarketFriend.WS.MarketFriend.Controllers.API
 {
@@ -61,7 +59,7 @@ namespace MarketFriend.WS.MarketFriend.Controllers.API
             {
                 respuesta = oDominio.GrabarEditar(oCategoria);
             }
-            if (respuesta == null) return NotFound();
+            if (respuesta == false) return NotFound();
 
             return Ok(respuesta);
         }
@@ -75,7 +73,7 @@ namespace MarketFriend.WS.MarketFriend.Controllers.API
             {
                 respuesta = oDominio.Eliminar(codigoCategoria);
             }
-            if (respuesta == null) return NotFound();
+            if (respuesta == false) return NotFound();
 
             return Ok(respuesta);
         }
@@ -89,7 +87,7 @@ namespace MarketFriend.WS.MarketFriend.Controllers.API
             {
                 respuesta = oDominio.Habilitar(codigoCategoria);
             }
-            if (respuesta == null) return NotFound();
+            if (respuesta == false) return NotFound();
 
             return Ok(respuesta);
         }
