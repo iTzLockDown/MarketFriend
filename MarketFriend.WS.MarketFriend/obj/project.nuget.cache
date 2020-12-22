@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dkr5KwAwN7294Dh70pYbzy/qJPE32zOjwh/cQa3TI11aIzbly1YZ0myLsTDDN0psu0mX+4HbCdg406MJBjTiLw==",
+  "dgSpecHash": "bLLASw9lhlX8OOJR26nnoTwfl1/yxLACD8SKMghUf+ivOyYrzqbUNNB1F3AYgVYKG+Ofm/LKN34zWH8zL7Lkqg==",
   "success": true,
   "projectFilePath": "E:\\Proyectos\\1.ProyectosGenerales\\Infraestructura GENESYS\\ADM\\BackEnd\\GENESYS\\MarketFriend\\MarketFriend.WS.MarketFriend\\MarketFriend.WS.MarketFriend.csproj",
   "expectedPackageFiles": [
@@ -191,7 +191,9 @@
     "C:\\Users\\STACY\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\STACY\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\STACY\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
-    "C:\\Users\\STACY\\.nuget\\packages\\system.xml.xpath.xdocument\\4.3.0\\system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\STACY\\.nuget\\packages\\system.xml.xpath.xdocument\\4.3.0\\system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\STACY\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\STACY\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.10\\microsoft.netcore.app.host.win-x64.3.1.10.nupkg.sha512"
   ],
   "logs": []
 }

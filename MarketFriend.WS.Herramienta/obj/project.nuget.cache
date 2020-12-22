@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "BaHmqQmsfaGhFro2/+/LF/p6U7PeuETHUicm84ZaB33j+eECf0EJjhcPD24aphWdeUAB+5MJ9/J27+qt38eXXg==",
+  "dgSpecHash": "rkQB2/NUIRj3baNQX7sa7dHYc2LOngFNdo4speoaWBiE3Cj7vhnaxEl2nYNFSegIMG8eG5aq+eTxmEur2DTBng==",
   "success": true,
   "projectFilePath": "E:\\Proyectos\\1.ProyectosGenerales\\Infraestructura GENESYS\\ADM\\BackEnd\\GENESYS\\MarketFriend\\MarketFriend.WS.Herramienta\\MarketFriend.WS.Herramienta.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\STACY\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
   "logs": []
 }

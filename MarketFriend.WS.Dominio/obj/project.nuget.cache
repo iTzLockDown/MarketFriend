@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9K82zWKKBqbe40YFksSXv1rQhYWXHXJnf7cB0aXaOi9yQJlplwRzLbVJNQgnv727MGRuuyMOl/lp+dDLlgykhg==",
+  "dgSpecHash": "rKna7KtPvnQmWsiZh7Eb5ta8YLvUc0Bh04da4AqAkec16Yab5YiaCyrT3ZPAzmsjIySzUo5SA4cq8TdP+dtqVA==",
   "success": true,
   "projectFilePath": "E:\\Proyectos\\1.ProyectosGenerales\\Infraestructura GENESYS\\ADM\\BackEnd\\GENESYS\\MarketFriend\\MarketFriend.WS.Dominio\\MarketFriend.WS.Dominio.csproj",
   "expectedPackageFiles": [
@@ -100,7 +100,8 @@
     "C:\\Users\\STACY\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\STACY\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
     "C:\\Users\\STACY\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\STACY\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\STACY\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\STACY\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
   ],
   "logs": []
 }
